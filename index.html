@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composiciones Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>📐 Composiciones con Flexbox y Details</h1>
+
+        <section class="seccion-flex">
+            <h2>Tarjetas Alineadas con Flexbox</h2>
+            <div class="flex-cards">
+                <div class="card">
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, Flexbox, Grid y JavaScript.</p>
+                </div>
+                <div class="card">
+                    <h3>Backend</h3>
+                    <p>Java, Spring Boot, MySQL y APIs REST.</p>
+                </div>
+                <div class="card">
+                    <h3>DevOps</h3>
+                    <p>Git, GitHub, despliegue y testing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-details">
+            <h2>Preguntas Frecuentes (Details nativo)</h2>
+            <details>
+                <summary>¿Qué es Flexbox?</summary>
+                <p>Flexbox es un modelo de diseño unidimensional que permite distribuir el espacio y alinear elementos de forma flexible.</p>
+            </details>
+            <details>
+                <summary>¿Cómo funciona justify-content?</summary>
+                <p>Alinea los elementos a lo largo del eje principal (horizontal por defecto).</p>
+            </details>
+            <details>
+                <summary>¿Qué ventaja tiene el elemento details?</summary>
+                <p>Permite crear acordeones interactivos directamente en HTML sin necesidad de código JavaScript.</p>
+            </details>
+        </section>
+    </div>
+</body>
+</html>
